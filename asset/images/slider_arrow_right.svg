@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="27" viewBox="0 0 40 27">
+  <defs>
+    <clipPath id="clip-Arrow2">
+      <rect width="40" height="27"/>
+    </clipPath>
+  </defs>
+  <g id="Arrow2" clip-path="url(#clip-Arrow2)">
+    <g id="arrow-point-to-right" transform="translate(124.304 26.569) rotate(180)">
+      <path id="Path_607" data-name="Path 607" d="M97.654,13.814l10.81,10.809a1.76,1.76,0,1,0,2.49-2.489l-9.565-9.564,9.564-9.564a1.76,1.76,0,1,0-2.49-2.49L97.654,11.325a1.76,1.76,0,0,0,0,2.489Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

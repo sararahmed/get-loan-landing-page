@@ -1,0 +1,1 @@
+$(document).ready(function(){var o=document.getElementById("sticky_button_footer");window.onscroll=function(){document.body.scrollTop>700||document.documentElement.scrollTop>700&&$(document).width()<=600?$(o).fadeIn():$(o).fadeOut()}});
