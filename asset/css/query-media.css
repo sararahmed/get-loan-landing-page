@@ -1,0 +1,2738 @@
+
+:root {
+    --main-color: #18cd4f;
+}
+:root {
+    --footer-color: linear-gradient(to right, #006a4e, #5ca08e);
+    --copyright-color: linear-gradient(to right, #088765, #5ca08e);
+    --loan-color : #07812c;
+}
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1200px
+    }
+}
+
+@media (max-width: 1024px) {
+    .on_going_loan_type_business1_drop_down-trigger, .on_going_loan_type_business2_drop_down-trigger, .on_going_loan_type_business3_drop_down-trigger {
+        width: 97%;
+        float: right
+    }
+
+    .Sadguru_Arts, .gupta_kirana_stores, .hari_om_garments {
+        min-height: 197px
+    }
+
+    .ongoing_loan_resize {
+        margin-left: .5rem
+    }
+
+    .extra_field_btn button {
+        background: green;
+        padding: .3rem .7rem;
+        margin: 1rem 0 0 -.6rem
+    }
+
+    .input_extra input {
+        margin-left: .7rem
+    }
+
+    .Extra_remove_btn button {
+        padding: .3rem .7em;
+        right: -1rem
+    }
+
+    .dfl_loans h2, .links h2 {
+        font-size: 28px
+    }
+
+    .lap_banner {
+        margin-top: 9.5rem
+    }
+
+    .buisness_banner {
+        margin-top: 4.5rem
+    }
+
+    .tooltip_on_hover .tooltiptex_business, .tooltip_on_hover .tooltiptext, .tooltip_on_hover .tooltiptext_goldLoan, .tooltip_on_hover .tooltiptext_goldLoan_business {
+        width: 60%;
+        font-size: 12px;
+        bottom: 19%
+    }
+
+    .manual_number span {
+        margin-left: 38px
+    }
+
+    .left_banner {
+        margin-top: 70px
+    }
+
+    .personal_loan_multipurpose_loan {
+        margin-top: 64px
+    }
+
+    .calculator1 h3 {
+        font-size: 18px
+    }
+
+    .category_banner_text h1, .menu_area {
+        width: 100%
+    }
+
+    .loan_against_heading_bg {
+        width: 90%
+    }
+
+    .loan_against_semi_heading_bg {
+        width: 80%
+    }
+
+    .white_cal_percentage h3 {
+        line-height: 1.2;
+        font-size: 1.6rem
+    }
+
+    .category_banner_paragraph p {
+        width: 50% !important
+    }
+
+    .auto_counter h2, .monthly_emi h4, .monthly_emi_normal h4 {
+        font-size: 22px;
+        width: 71%
+    }
+
+    .sub_input {
+        margin-left: -15px;
+        margin-right: -15px
+    }
+
+    .loan_tenure_tab h3 {
+        margin-top: 0 !important;
+        font-size: 1.6rem
+    }
+
+    #loan_amt_lakh {
+        font-size: 1.6rem
+    }
+
+    .personal_loan_heading h2 {
+        color: #fff;
+        text-align: center
+    }
+
+    .white_cal, .white_cal_loan_amt, .white_cal_percentage {
+        box-shadow: 12px 1px 13px 4px #0000001a;
+        border-radius: 10px;
+        width: 100%;
+        float: right
+    }
+
+    .monthly_emi_normal {
+        padding: 31px 0 37px 0
+    }
+
+    .monthly_emi h4, .monthly_emi_normal h4 {
+        font-size: 28px
+    }
+
+    .process1 h3 {
+        font-size: 13px
+    }
+
+    .menu_area ul li {
+        margin-right: 0;
+        font-size: 14px
+    }
+
+    .calculator1 {
+        padding: 9px 30px
+    }
+
+    .loan_tenure_tab h3 {
+        margin-top: 8px
+    }
+
+    #emi_calculator {
+        margin-top: 0
+    }
+
+    .personal_loan_colleteral {
+        position: relative;
+        top: 115px
+    }
+
+    .multipurpose_personal_loan h3 {
+        width: 80%
+    }
+
+    .banner_tab {
+        box-shadow: 1px -1px 10px 2px #00000026;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .process1 button {
+        position: absolute !important;
+        right: 0;
+        left: 37px !important;
+        bottom: -19px
+    }
+
+    .process_top button {
+        position: absolute !important;
+        right: 0;
+        left: 33px !important;
+        bottom: -19px
+    }
+
+    .process_down {
+        margin-top: 20px
+    }
+
+    .dot_img_up img {
+        width: 80%;
+        margin: -21px 0 0 96px;
+        transform: skew(-5deg, -1deg);
+        z-index: -1
+    }
+}
+
+@media (max-width: 1170px) {
+    .banner p {
+        font-size: 18px
+    }
+
+    .banner button {
+        font-size: 14px;
+        font-weight: 700
+    }
+
+    .process1 button {
+        position: absolute;
+        right: 0;
+        left: 24px;
+        bottom: -19px
+    }
+
+    .card_ftr_btn button, .purple_2 img {
+        width: 100%
+    }
+
+    .round_bg_icon {
+        width: 100%;
+        min-height: 150px
+    }
+
+    .apply_now {
+        position: inherit;
+        transform: none;
+        margin-top: 70px;
+        width: 100%
+    }
+
+    .label_h2 h2 {
+        font-size: 20px;
+        line-height: 50px
+    }
+
+    .apply_now_btn button {
+        background: 0 0;
+        border: none;
+        background-color: #df1839;
+        color: #fff;
+        width: 80%;
+        padding: 8px 0;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 700
+    }
+
+    .content_area, .content_area_right {
+        width: 100%
+    }
+
+    .row.dot_img_down img {
+        margin: 3px 0 0 76px
+    }
+
+    .dot_img_up img {
+        margin: -21px 0 0 76px
+    }
+}
+
+@media (max-width: 768px),(max-width: 992px) {
+    .Sadguru_Arts, .gupta_kirana_stores, .hari_om_garments {
+        min-height: 147px
+    }
+
+    .links h2 {
+        font-size: 22px
+    }
+
+    #on_going_loan_input1, #on_going_loan_input2, #on_going_loan_input3 {
+        width: 91%;
+        margin-left: 2px;
+        margin-top: 0
+    }
+
+    .extra_field_btn button {
+        background: green;
+        padding: .4rem .3rem !important;
+        margin: 4rem 0 0 -.3rem;
+        width: 12% !important
+    }
+
+    .form_bg_change p {
+        text-align: left !important;
+        margin-left: 0
+    }
+
+    .Extra_remove_btn button {
+        background: #df1839;
+        padding: .3rem .4rem !important;
+        margin: 4rem 0 0 -.3rem;
+        width: 11% !important;
+        right: -10px
+    }
+
+    .tooltip_on_hover .tooltiptext, .tooltip_on_hover .tooltiptext_goldLoan, .tooltip_on_hover .tooltiptext_goldLoan_business {
+        left: 56%
+    }
+
+    .category_banner_text h1 {
+        font-size: 32px
+    }
+
+    .error_show_image {
+        display: none
+    }
+
+    .error_page_left button {
+        width: 70%
+    }
+
+    .error_page_left {
+        position: inherit
+    }
+
+    .error_page_left p {
+        font-size: 18px;
+        margin: 15px 0 15px 0
+    }
+
+    .category_banner_paragraph p {
+        width: 80% !important
+    }
+
+    .bg_img, .dfl_home_loan_image, .who_can_take_personal_loan_image {
+        display: none
+    }
+
+    .who_can_take_personal_loan_image_mobile {
+        display: block
+    }
+
+    .category_banner_text img, .home_banner_heading h3, .logo_mobile img, .video_youtube iframe, .white_cal_percentage, .who_can_take_personal_loan_image_mobile img {
+        width: 100%
+    }
+
+    .banner_img_resize img {
+        width: 100% !important
+    }
+
+    .home_banner_heading h3 {
+        font-size: 32px;
+        margin-top: 22px
+    }
+
+    .left_banner {
+        margin-top: 90px
+    }
+
+    .inner_area_personal_loan_center {
+        width: 100%;
+        position: inherit
+    }
+
+    .advantages_business_loan_wave h3 {
+        width: 70%
+    }
+
+    .LAP_advantages h3 {
+        width: 65% !important
+    }
+
+    .white_cal_percentage h3 {
+        text-align: center;
+        height: 30px;
+        line-height: 30px
+    }
+
+    .mobile_handburger {
+        display: block
+    }
+
+    .banner_tab {
+        box-shadow: 1px -1px 10px 2px #00000026;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .carousel-indicators > li {
+        top: 40px
+    }
+
+    .top_margin {
+        margin-top: 10px
+    }
+
+    .process_second {
+        margin-top: 15px
+    }
+
+    .monthly_emi_normal {
+        padding: 25px 0 25px 0
+    }
+
+    #why_choose_dfl, .new_content {
+        margin-top: 35px
+    }
+
+    .latest_news {
+        margin-bottom: -60px
+    }
+
+    .banner {
+        padding: 20px 0 44px 0
+    }
+
+    .privacy_banner_text h2 {
+        font-size: 32px
+    }
+
+    .contact_field, .privacy_first_para {
+        margin-top: -100px
+    }
+
+    .about_team_image img {
+        margin-bottom: 50px
+    }
+
+    .stats_growing h5 {
+        font-size: 14px
+    }
+
+    .dateclass, .dateclass.placeholderclass::before, .input_fiel input::placeholder {
+        font-size: 14px
+    }
+
+    .about_heading_content {
+        width: 345px
+    }
+
+    .dfl_loans ul {
+        display: flex
+    }
+
+    .lap_banner {
+        margin-top: 9.5rem
+    }
+
+    .buisness_banner {
+        margin-top: 4.5rem
+    }
+
+    .process_down, .slide_header {
+        margin-top: 20px
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 4px;
+        right: 42px;
+        font-size: 36px
+    }
+
+    .ptb p {
+        text-align: center;
+        font-size: 14px
+    }
+
+    .mt-10 {
+        margin-top: 0
+    }
+
+    .about_banner, .contact_banner {
+        background-size: 100% 70%;
+        min-height: 460px
+    }
+
+    .contact_heading {
+        padding-top: 2em
+    }
+
+    .sub_input {
+        margin-left: -15px;
+        margin-right: -15px
+    }
+
+    #loan_amt_lakh, #personal_loan_amt_lakh, .calculator1 h3, .calculator_loan_amt input, .contact_heading p, .contact_text h4, .inner_area_personal_loan h2, .privacy_banner_text p, .privacy_content p {
+        font-size: 16px
+    }
+
+    .inner_area_personal_loan p, .inner_area_personal_loan ul li, .process1 h3, .process_top h3 {
+        font-size: 12px
+    }
+
+    .inner_area_personal_loan ul li img {
+        width: 20px
+    }
+
+    .process1 h3 {
+        margin: 10px 0 5px 0
+    }
+
+    .inner_area_personal_loan ul li {
+        margin: 10px 0
+    }
+
+    .inner_area_personal_loan button {
+        background: 0 0;
+        border: none;
+        background-color: var(--main-color);
+        border-radius: 20px;
+        width: 30%;
+        padding: 6px 0;
+        color: #fff;
+        outline: 0;
+        font-size: 12px;
+        transition: 1s !important
+    }
+
+    .inner_area_personal_loan {
+        padding: 10px 0 15px 10px
+    }
+
+    .contact_Phone_Number {
+        padding: 10px 10px 10px 25px
+    }
+
+    .head_office_contact {
+        width: 70%;
+        margin-top: 0
+    }
+
+    .google_map iframe {
+        margin-top: 50px;
+        height: 300px
+    }
+
+    .contact_spacing, .contact_text {
+        padding: 0
+    }
+
+    .about_heading_content {
+        margin-top: -100px !important
+    }
+
+    .about_dhanavarsha p {
+        margin-top: 0
+    }
+
+    .navbar-brand, .navbar-brand img {
+        width: 70%
+    }
+
+    .branches h4, .branches2 h4, .sidenav a {
+        font-size: 18px
+    }
+
+    .card {
+        margin-bottom: 20px
+    }
+
+    .testimonial1 {
+        margin-bottom: 20px
+    }
+
+    .menu_area ul li {
+        margin-right: 0;
+        text-align: left;
+        padding: 5px 65px;
+        border-bottom: 1px solid #0000000d
+    }
+
+    .menu_area ul li:last-child {
+        border-bottom: none
+    }
+
+    .mobile_menus ul li {
+        margin-right: 0;
+        text-align: left;
+        padding: 5px 65px;
+        border-bottom: 1px solid #0000000d;
+        text-align: left
+    }
+
+    .mobile_menus ul li:last-child {
+        border-bottom: none
+    }
+
+    .navbar-light .navbar-nav .show:hover > .nav-link {
+        color: #000
+    }
+
+    .dropdown-item, .navbar-light .navbar-nav .nav-link {
+        color: #000;
+        font-weight: 600
+    }
+
+    .mobile_dropdown_menu {
+        width: 88%
+    }
+
+    .mobile_dropdown_menu .dropdown-item {
+        color: #000;
+        border-bottom: 1px solid #0000000d;
+        padding: 14px 20px
+    }
+
+    .mobile_dropdown_menu .dropdown-item:last-child {
+        border-bottom: none
+    }
+
+    .mobile_dropdown_menu a:hover {
+        background-color: #df1839
+    }
+
+    .border_left {
+        border: none
+    }
+
+    .banner p {
+        font-size: 18px;
+        text-align: center;
+        width: 100%
+    }
+
+    .banner button {
+        padding: 20px 45px;
+        margin-bottom: 30px;
+        width: 100%
+    }
+
+    .process1 {
+        padding: 20px 10px;
+        width: 100%
+    }
+
+    .process1 button {
+        width: 70%;
+        padding: 9px 0;
+        font-weight: 700;
+        font-size: 10px;
+        position: absolute !important;
+        right: 0;
+        left: 31px !important;
+        bottom: -19px
+    }
+
+    .process_top button {
+        width: 70%;
+        padding: 9px 0;
+        font-weight: 700;
+        font-size: 10px;
+        position: absolute !important;
+        right: 0;
+        left: 23px !important;
+        bottom: -16px
+    }
+
+    .loan_against_heading_bg, .loan_against_semi_heading_bg, .purple_2 img {
+        width: 100%
+    }
+
+    .loan_against_heading_bg h2 {
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        line-height: 40px;
+        font-size: 25px;
+        font-weight: 700;
+        padding: 20px 90px
+    }
+
+    .content_area {
+        margin-top: 0
+    }
+
+    .round_bg_icon {
+        width: 100%;
+        min-height: 100px
+    }
+
+    .choose1, .choose2 {
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 0 10px
+    }
+
+    .apply_now {
+        width: 100%;
+        margin-top: 50px
+    }
+
+    .apply_now {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 30px;
+        position: inherit;
+        bottom: -35%;
+        left: 0;
+        bottom: 0;
+        transform: inherit
+    }
+
+    .label_h2 h2 {
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center
+    }
+
+    .apply_now_btn button {
+        background: 0 0;
+        border: none;
+        background-color: #df1839;
+        color: #fff;
+        width: 50%;
+        padding: 10px 0;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 700
+    }
+
+    .apply_now_btn {
+        text-align: center;
+        margin: 10px 0
+    }
+
+    .content_area {
+        width: 100%;
+        padding-left: 50px
+    }
+
+    .content_area_right {
+        width: 100%
+    }
+
+    .row.dot_img_up {
+        margin: 0
+    }
+
+    .row.dot_img_down {
+        margin: 0
+    }
+
+    .contact_image img {
+        width: 100%
+    }
+
+    .about_text h2 {
+        margin-top: 77px
+    }
+
+    .auto_counter h2, .monthly_emi h4, .monthly_emi_normal h4 {
+        font-size: 22px;
+        width: 71%
+    }
+
+    .content_area h4, .content_area_right h4 {
+        font-size: 20px
+    }
+
+    .loader_emi {
+        padding: 9px 10px
+    }
+
+    .dfl_links {
+        padding-left: 30px
+    }
+
+    .contact_spacing img {
+        width: 90%
+    }
+
+    .spacing {
+        padding-left: 0
+    }
+
+    .privacy_banner_text {
+        margin-top: 40px
+    }
+
+    .stats_growing img {
+        width: 40px
+    }
+
+    .process1 button {
+        position: absolute;
+        right: 0;
+        left: 32px;
+        bottom: -16px
+    }
+
+    .about_us_video {
+        margin-top: 25px
+    }
+
+    .row.head_office_main {
+        margin-top: -10px
+    }
+
+    .heading {
+        margin-bottom: 30px
+    }
+
+    .personal_loan_heading h2 {
+        color: #fff;
+        text-align: center
+    }
+
+    .about_personal_loan {
+        margin-top: -60px
+    }
+
+    .personal_loan_advantages_banner {
+        background-image: url(../image/personal-loan-advantage-mobile.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: 100% 100%;
+        min-height: 304px;
+        position: relative;
+        padding: 20px 0 40px 0
+    }
+
+    .personal_loan_colleteral, .personal_loan_multipurpose_loan {
+        padding: 20px 0 20px 0;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+
+    .personal_loan_colleteral {
+        position: relative;
+        top: 0
+    }
+
+    .who_can_take_personal_loan_image img {
+        width: 100%;
+        position: absolute;
+        bottom: 0
+    }
+
+    .accordion_image img {
+        position: inherit;
+        margin-top: 60px
+    }
+
+    .branches {
+        min-height: 90%
+    }
+
+    .LAP_calculator {
+        margin-top: 0 !important
+    }
+
+    .white_cal {
+        width: 100%
+    }
+
+    .calculator_loan_amt {
+        padding: 0
+    }
+
+    .white_cal_loan_amt {
+        width: 100%
+    }
+
+    .Enter_Loan_Amount input {
+        padding-left: 0
+    }
+
+    .loan_tenure_tab h3 {
+        margin-top: 6px !important;
+        margin-left: 15px
+    }
+
+    .accordion_image {
+        display: none
+    }
+
+    .accordion_image_mobile {
+        display: block
+    }
+
+    .accordion_image_mobile img {
+        width: 100%
+    }
+
+    .accordion_submit_button {
+        margin-bottom: 40px
+    }
+
+    .loan_heading_space {
+        margin-top: 0
+    }
+
+    .sticky_button {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        z-index: 15
+    }
+
+    .sticky_blue_text {
+        background-color: #0b0862;
+        width: 60%;
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+        padding: 20px 0
+    }
+
+    .sticky_blue_text h5 {
+        padding: 0;
+        margin: 0;
+        font-size: 14px
+    }
+
+    .sticky_btn_area {
+        background-color: #fff;
+        width: 40%
+    }
+
+    .sticky_btn_area button {
+        color: #fff;
+        background: 0 0;
+        width: 84%;
+        border: none;
+        background-color: #df1839;
+        border-radius: 30px;
+        font-size: 12px;
+        transition: .5s;
+        padding: 8px 0;
+        margin-top: 11px;
+        box-shadow: 1px 6px 7px 3px #0000002e
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .branches2 {
+        width: 100%
+    }
+
+    .space_btm {
+        margin-bottom: 1.2rem
+    }
+
+    .form_bg_change p {
+        display: block !important
+    }
+
+    .Extra_remove_btn button {
+        width: 10% !important
+    }
+
+    .Gupta_Kirana_Store, .Hari_Om_Garments, .sadguru_arts {
+        height: 15.2rem
+    }
+
+    .tooltip_on_hover .tooltiptext {
+        width: 52%
+    }
+
+    .buisness_banner {
+        margin-top: 0
+    }
+
+    .tooltip_on_hover .tooltiptext_goldLoan {
+        width: 52%
+    }
+
+    .tooltip_on_hover .tooltiptext_goldLoan_business {
+        width: 52%
+    }
+
+    .mobile_handburger {
+        margin-right: 20px
+    }
+
+    .form_tab {
+        width: 70%;
+        margin: auto
+    }
+
+    .process1 {
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 20px 10px;
+        text-align: center;
+        position: relative;
+        width: 80%;
+        margin: 35px 0;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 25px
+    }
+
+    .process1 img {
+        width: 35%
+    }
+
+    .process1 h3 {
+        margin: 20px 0 15px 0;
+        font-size: 14px
+    }
+
+    .process1 button {
+        width: 70%;
+        padding: 8px 0;
+        font-weight: 700;
+        font-size: 12px;
+        position: absolute !important;
+        right: 0;
+        left: 60px !important;
+        bottom: -19px
+    }
+
+    .mobile_dropdown_menu {
+        width: 88%;
+        margin: 0 auto
+    }
+
+    .ptb {
+        padding-bottom: 40px
+    }
+
+    .sticky_button {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        z-index: 15
+    }
+
+    .sticky_blue_text {
+        background-color: #0b0862;
+        width: 60%;
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+        padding: 20px 0
+    }
+
+    .sticky_blue_text h5 {
+        padding: 0;
+        margin: 0;
+        font-size: 14px
+    }
+
+    .sticky_btn_area {
+        background-color: #fff;
+        width: 40%
+    }
+
+    .sticky_btn_area button {
+        color: #fff;
+        background: 0 0;
+        width: 84%;
+        border: none;
+        background-color: #df1839;
+        border-radius: 30px;
+        font-size: 12px;
+        transition: .5s;
+        padding: 8px 0;
+        margin-top: 11px;
+        box-shadow: 1px 6px 7px 3px #0000002e
+    }
+
+    .accordion_submit_button {
+        margin-bottom: 40px
+    }
+
+    .LAP_advantages h3 {
+        width: 80% !important
+    }
+
+    .loan_tenure_main {
+        width: 100% !important
+    }
+
+    .white_cal_loan_amt {
+        width: 80%
+    }
+
+    .advantages_business_loan_wave h3 {
+        width: 100%
+    }
+
+    .loan_tenure_main {
+        border-radius: 10px !important;
+        background-color: #ccc;
+        font-size: 12px;
+        width: 60%;
+        float: right
+    }
+
+    .white_cal_percentage h3 {
+        text-align: center;
+        height: auto;
+        line-height: 2
+    }
+
+    .apply_btn_mobile, .left_banner {
+        margin-top: 0
+    }
+
+    .white_cal_percentage, .white_cal_tenure {
+        width: 80%;
+        text-align: center
+    }
+
+    .personal_loan_heading h2 {
+        color: #fff;
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+        margin-top: 2.2rem
+    }
+
+    .branches {
+        min-height: 85%
+    }
+
+    .monthly_emi {
+        padding: 12px 0
+    }
+
+    .about_heading_content {
+        margin-top: 30px !important
+    }
+
+    .privacy_first_para {
+        margin-top: 20px
+    }
+
+    .irs--round .irs-handle {
+        top: 25px !important;
+        width: 24px !important;
+        height: 24px !important;
+        border: 4px solid #fff !important;
+        background-color: #0d0a64 !important;
+        border-radius: 24px;
+        box-shadow: 0 1px 3px rgba(0, 0, 255, .3);
+        cursor: pointer
+    }
+
+    .branches h4, .branches2 h4, .privacy_banner_text p {
+        font-size: 18px
+    }
+
+    .privacy_banner_text p {
+        margin-top: 15px
+    }
+
+    .privacy_banner_text h2 {
+        font-size: 35px
+    }
+
+    .short_add p {
+        padding-bottom: 0
+    }
+
+    .branches {
+        padding: 15px 8px
+    }
+
+    .google_map iframe {
+        width: 100%;
+        box-shadow: 8px 7px 8px 0 #00000052;
+        margin-top: 40px;
+        height: 280px
+    }
+
+    .row.head_office_main {
+        margin-bottom: -44px
+    }
+
+    .slide_header {
+        margin-top: 0;
+        border-bottom: 1px solid #0000000d;
+        padding: 15px 0 15px 0
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 4px;
+        right: 38px;
+        font-size: 36px
+    }
+
+    .about_image, .bg_img, .contact_image img {
+        display: none
+    }
+
+    .emi_calculation_mobile {
+        width: 90%;
+        margin: 0 auto
+    }
+
+    .logo_mobile img {
+        width: 140% !important
+    }
+
+    .monthly_emi h4, .monthly_emi_normal h4 {
+        font-size: 18px;
+        width: 100%
+    }
+
+    .loding_area {
+        margin-bottom: 30px
+    }
+
+    .monthly_emi_normal {
+        padding: 10px 0 10px 0
+    }
+
+    .choose1, .choose2 {
+        width: 100%;
+        text-align: center
+    }
+
+    .calculator1 {
+        width: 100%
+    }
+
+    .red_cal h4 {
+        font-size: 14px
+    }
+
+    .pb-60 {
+        padding-bottom: 0
+    }
+
+    #loan_amt_lakh, #personal_loan_amt_lakh, .calculator1 h3 {
+        font-size: 12px
+    }
+
+    .contact_field, .process_down {
+        margin-top: 0
+    }
+
+    .spacing {
+        padding-left: 23px !important
+    }
+
+    #emi_calculator {
+        margin-top: 14px
+    }
+
+    .calculator_loan_amt input {
+        height: auto;
+        font-size: 12px
+    }
+
+    .irs--round .irs-grid-text {
+        color: silver;
+        font-size: 12px !important
+    }
+
+    .about_dhanavarsha p {
+        padding-left: 10px
+    }
+
+    .contact_heading {
+        width: 100%;
+        padding-top: 5.5em
+    }
+
+    .contact_heading h2, .privacy_content h2 {
+        font-size: 35px;
+        text-align: center
+    }
+
+    .about_text h2 {
+        margin: 0 auto;
+        position: unset;
+        color: #fff;
+        font-weight: 700;
+        font-size: 35px;
+        margin-top: 62px
+    }
+
+    .links ul li {
+        font-size: 16px !important
+    }
+
+    .contact_Phone_Number {
+        margin: 15px 0
+    }
+
+    .privacy_content {
+        margin-top: 0;
+        padding-top: 20px;
+        float: none;
+        width: 100%
+    }
+
+    .contact_text h4 {
+        font-size: 22px
+    }
+
+    .contact_text {
+        margin-top: 16px
+    }
+
+    .row.head_office_main {
+        margin-top: 24px
+    }
+
+    .head_office_contact {
+        width: 100% !important;
+        margin-top: 100px
+    }
+
+    .testimonial1 {
+        margin-bottom: 20px !important
+    }
+
+    .testimonials {
+        margin-top: 0
+    }
+
+    .round_bg_icon {
+        width: 65%;
+        min-height: 100px
+    }
+
+    .heading h2, .heading_blog h2 {
+        font-size: 20px
+    }
+
+    .branches p, .branches2 p {
+        font-size: 15px;
+        margin-bottom: 0;
+        padding: 0 16px
+    }
+
+    .heading {
+        margin-bottom: 20px
+    }
+
+    .content_area, .content_area_right, .purple_2 img, .row.dot_img_down img {
+        width: 100%;
+        margin-top: 24px
+    }
+
+    .row.dot_img_down img {
+        margin: 9px 0 0 60px;
+        width: 80%
+    }
+
+    .row.dot_img_down img {
+        transform: skew(4deg, 8deg);
+        z-index: -1
+    }
+
+    .dot_img_up img {
+        margin: -22px 0 0 63px;
+        width: 80%
+    }
+
+    .dot_img_up img {
+        transform: skew(-15deg, -6deg);
+        z-index: -1
+    }
+
+    .purple_2 img {
+        margin-top: 17px
+    }
+
+    .new_content {
+        padding: 40px 0;
+        padding-bottom: 0;
+        margin-top: 0
+    }
+
+    .dfl_loans ul li a img {
+        width: 60%
+    }
+
+    .dfl_loans ul li {
+        margin: 0
+    }
+
+    .links h2 {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left
+    }
+
+    .dfl_loans {
+        margin-bottom: 30px
+    }
+
+    .links ul li {
+        font-size: 12px;
+        display: flex
+    }
+
+    .ptb h2, .ptb h4 {
+        font-size: 14px;
+        text-align: center
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5rem .1rem;
+        font-size: 12px
+    }
+
+    .sub_input {
+        margin-left: -15px;
+        margin-right: -15px
+    }
+
+    .bg-white {
+        width: 100% !important;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    .banner {
+        padding: 20px 0 38px 0
+    }
+
+    .process1 button {
+        position: absolute;
+        right: 0;
+        left: 45px;
+        bottom: -15px
+    }
+
+    .process_second {
+        margin-top: 0
+    }
+
+    .banner p {
+        display: none
+    }
+
+    .content_area {
+        padding-left: 0
+    }
+
+    .content_area h4, .content_area_right h4 {
+        font-size: 14px
+    }
+
+    .content_area p, .content_area_right p {
+        font-size: 12px
+    }
+
+    .video_youtube iframe {
+        width: 100%;
+        min-height: 320px
+    }
+
+    .about_heading {
+        margin: 0 auto;
+        position: unset;
+        width: 100%;
+        color: #fff;
+        padding-top: 70px
+    }
+
+    footer {
+        padding-top: 20px
+    }
+
+    .sub_beanches {
+        margin-bottom: 0
+    }
+
+    .contact_spacing img {
+        padding: 10px
+    }
+
+    .latest_news {
+        margin-top: 20px;
+        margin-bottom: 10px !important
+    }
+
+    .border-right {
+        border-right: none !important;
+        border-left: none !important
+    }
+
+    .about_team_image img {
+        margin-bottom: 30px
+    }
+
+    .counting_mobile, .easy_process_mobile, .emi_calculation_mobile, .mobile_handburger {
+        display: block
+    }
+
+    .counting_dekstop, .emi_calculation, .process, hr {
+        display: none
+    }
+
+    .fadeInUp {
+        transform: inherit;
+        animation-name: inherit !important
+    }
+
+    .dfl_loans h2 {
+        font-size: 22px;
+        font-weight: 700
+    }
+
+    .stats_growing img {
+        width: 40%
+    }
+
+    .stats_growing h5 {
+        font-size: 14px
+    }
+
+    .counting_mobile {
+        font-size: 25px
+    }
+
+    .dfl_links {
+        padding-left: 0
+    }
+
+    .stats_growing {
+        margin-bottom: 50px
+    }
+
+    .loader_1 {
+        padding-bottom: 0
+    }
+
+    .hvr-bounce-to-bottom {
+        transform: inherit !important
+    }
+
+    #why_choose_dfl {
+        margin-top: 45px
+    }
+
+    .sidenav a {
+        font-size: 14px
+    }
+
+    .mobile_menus ul li {
+        color: #000;
+        padding: 8px 3px
+    }
+
+    .nav-item a {
+        padding-left: 24px !important
+    }
+
+    .row.dot_img_up {
+        margin: 0
+    }
+
+    .row.dot_img_down {
+        margin: 0
+    }
+
+    .privacy_banner_text {
+        color: #fff;
+        margin-top: 25px
+    }
+
+    .inner_area_personal_loan button {
+        width: 90%
+    }
+
+    .personal_loan_heading_bg h2 {
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        line-height: 75px;
+        font-size: 16px;
+        font-weight: 700
+    }
+
+    .personal_loan_colleteral, .personal_loan_multipurpose_loan {
+        padding: 20px 0 20px 0;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+
+    .personal_loan_colleteral {
+        position: relative;
+        top: 0
+    }
+
+    .multipurpose_personal_loan h3 {
+        font-size: 12px;
+        font-weight: 700;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 12px
+    }
+
+    .personal_loan_bg {
+        background-image: url(../image/personal-loan-mobile.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: contain;
+        min-height: 145px
+    }
+
+    .personal_loan_advantages_banner {
+        background-image: url(../image/personal-loan-advantage-mobile.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        min-height: 305px;
+        position: relative;
+        padding: 20px 0 20px 0
+    }
+
+    .about_personal_loan {
+        padding: 0 20px
+    }
+
+    .about_personal_loan {
+        margin-top: -30px
+    }
+
+    .carousel-indicators > li {
+        top: 75px
+    }
+
+    .accordion_image img, .who_can_take_personal_loan_image img {
+        width: 100%;
+        position: inherit;
+        margin-top: 30px
+    }
+
+    .category_banner_text h1, .category_banner_text img {
+        display: none
+    }
+
+    .category_banner_text h4 {
+        display: block;
+        font-weight: 700;
+        width: 87%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px
+    }
+
+    .verticle_line {
+        border-left: 2px solid #b4b4b4;
+        height: 44%;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 60px
+    }
+
+    .principal_amt_mobile h4, .total_payment_mobile h4 {
+        font-size: 14px;
+        padding: 10px 0
+    }
+
+    .principal_amt_mobile, .total_payment_mobile {
+        padding: 0
+    }
+
+    .total_payment_mobile {
+        border-left: 2px solid #ccc
+    }
+
+    .personal_loan_accordition_heading h2 button span {
+        font-size: 11px
+    }
+
+    .loan_against_heading_bg, .loan_against_semi_heading_bg {
+        width: 100%
+    }
+
+    .loan_against_heading_bg h2, .loan_against_semi_heading_bg h2 {
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 0 40px;
+        margin-top: 17px
+    }
+
+    .Enter_Loan_Amount input, .calculator_loan_amt input {
+        padding-left: 22px;
+        line-height: 2.5
+    }
+
+    .advantages_business_loan_wave h3, .advantages_home_loan_wave h3, .advantages_personal_loan_wave h3 {
+        padding: 0 6px;
+        font-size: 12px;
+        line-height: 14px
+    }
+
+    .dfl_home_loan_image img, .error_page_left {
+        position: inherit
+    }
+
+    .accordion_image, .dfl_home_loan_image, .error_hide_image, .left_banner ul, .who_can_take_personal_loan_image {
+        display: none
+    }
+
+    .accordion_image_mobile, .error_show_image, .who_can_take_personal_loan_image_mobile {
+        display: block
+    }
+
+    .accordion_image_mobile img, .error_page_left button, .who_can_take_personal_loan_image_mobile img {
+        width: 100%
+    }
+
+    .error_page_image img {
+        margin-top: 40px
+    }
+}
+
+@media (max-width: 480px) {
+    .extra_field_btn button {
+        background: green;
+        padding: .4rem .1rem !important;
+        margin: 4rem 0 0 -.3rem;
+        width: 12% !important
+    }
+
+    .Sadguru_Arts, .gupta_kirana_stores, .hari_om_garments {
+        min-height: 244px;
+        width: 100%
+    }
+
+    .progress {
+        top: 200px
+    }
+
+    .buisness_banner, .lap_banner {
+        margin-top: 0
+    }
+
+    .all_items h2 {
+        top: 210px
+    }
+
+    .tooltip_on_hover .tooltiptext, .tooltip_on_hover .tooltiptext_goldLoan, .tooltip_on_hover .tooltiptext_goldLoan_business {
+        width: 59%
+    }
+
+    .tooltip_on_hover:hover .tooltiptex_business {
+        width: 57%
+    }
+
+    .mobile_handburger {
+        margin-right: 20px
+    }
+
+    .form_tab {
+        width: 70%;
+        margin: auto
+    }
+
+    .process1 {
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 20px 10px;
+        text-align: center;
+        position: relative;
+        width: 80%;
+        margin: 35px 0;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 25px
+    }
+
+    .process1 img {
+        width: 35%
+    }
+
+    .process1 h3 {
+        margin: 20px 0 15px 0;
+        font-size: 14px
+    }
+
+    .process1 button {
+        width: 70%;
+        padding: 8px 0;
+        font-weight: 700;
+        font-size: 12px;
+        position: absolute !important;
+        right: 0;
+        left: 40px !important;
+        bottom: -19px
+    }
+
+    .business_list ul {
+        padding: 0
+    }
+
+    .business_list ul li {
+        font-size: .8rem
+    }
+
+    .mobile_dropdown_menu {
+        width: 88%;
+        margin: 0 auto
+    }
+
+    .ptb {
+        padding-bottom: 40px
+    }
+
+    .sticky_button {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        z-index: 15
+    }
+
+    .sticky_blue_text {
+        background-color: #0b0862;
+        width: 60%;
+        clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+        padding: 20px 0
+    }
+
+    .sticky_blue_text h5 {
+        padding: 0;
+        margin: 0;
+        font-size: 14px
+    }
+
+    .sticky_btn_area {
+        background-color: #fff;
+        width: 40%
+    }
+
+    .sticky_btn_area button {
+        color: #fff;
+        background: 0 0;
+        width: 84%;
+        border: none;
+        background-color: #df1839;
+        border-radius: 30px;
+        font-size: 12px;
+        transition: .5s;
+        padding: 8px 0;
+        margin-top: 11px;
+        box-shadow: 1px 6px 7px 3px #0000002e
+    }
+
+    .accordion_submit_button {
+        margin-bottom: 40px
+    }
+
+    .LAP_advantages h3 {
+        width: 80% !important
+    }
+
+    .loan_tenure_main {
+        width: 100% !important
+    }
+
+    .white_cal_loan_amt {
+        width: 80%
+    }
+
+    .advantages_business_loan_wave h3 {
+        width: 100%
+    }
+
+    .loan_tenure_main {
+        border-radius: 10px !important;
+        background-color: #ccc;
+        font-size: 12px;
+        width: 60%;
+        float: right
+    }
+
+    .white_cal_percentage h3 {
+        text-align: center;
+        height: auto;
+        line-height: 2
+    }
+
+    .apply_btn_mobile, .left_banner {
+        margin-top: 0
+    }
+
+    .white_cal_percentage, .white_cal_tenure {
+        width: 80%;
+        text-align: center
+    }
+
+    .personal_loan_heading h2 {
+        color: #fff;
+        font-size: 22px;
+        width: 100%;
+        text-align: center
+    }
+
+    .branches {
+        min-height: 85%
+    }
+
+    .monthly_emi {
+        padding: 12px 0
+    }
+
+    .about_heading_content {
+        margin-top: 30px !important
+    }
+
+    .privacy_first_para {
+        margin-top: 20px
+    }
+
+    .irs--round .irs-handle {
+        top: 25px !important;
+        width: 24px !important;
+        height: 24px !important;
+        border: 4px solid #fff !important;
+        background-color: #0d0a64 !important;
+        border-radius: 24px;
+        box-shadow: 0 1px 3px rgba(0, 0, 255, .3);
+        cursor: pointer
+    }
+
+    .branches h4, .branches2 h4, .privacy_banner_text p {
+        font-size: 18px
+    }
+
+    .privacy_banner_text p {
+        margin-top: 15px
+    }
+
+    .privacy_banner_text h2 {
+        font-size: 35px
+    }
+
+    .short_add p {
+        padding-bottom: 0
+    }
+
+    .branches {
+        padding: 15px 8px
+    }
+
+    .google_map iframe {
+        width: 100%;
+        box-shadow: 8px 7px 8px 0 #00000052;
+        margin-top: 40px;
+        height: 280px
+    }
+
+    .row.head_office_main {
+        margin-bottom: -44px
+    }
+
+    .slide_header {
+        margin-top: 0;
+        border-bottom: 1px solid #0000000d;
+        padding: 15px 0 15px 0
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 4px;
+        right: 38px;
+        font-size: 36px
+    }
+
+    .about_image, .bg_img, .contact_image img {
+        display: none
+    }
+
+    .emi_calculation_mobile {
+        width: 90%;
+        margin: 0 auto
+    }
+
+    .logo_mobile img {
+        width: 140% !important
+    }
+
+    .monthly_emi h4, .monthly_emi_normal h4 {
+        font-size: 18px;
+        width: 100%
+    }
+
+    .loding_area {
+        margin-bottom: 30px
+    }
+
+    .monthly_emi_normal {
+        padding: 10px 0 10px 0
+    }
+
+    .choose1, .choose2 {
+        width: 100%;
+        text-align: center
+    }
+
+    .calculator1 {
+        width: 100%
+    }
+
+    .red_cal h4 {
+        font-size: 14px
+    }
+
+    .pb-60 {
+        padding-bottom: 0
+    }
+
+    #loan_amt_lakh, #personal_loan_amt_lakh, .calculator1 h3 {
+        font-size: 12px
+    }
+
+    .contact_field, .process_down {
+        margin-top: 0
+    }
+
+    .spacing {
+        padding-left: 23px !important
+    }
+
+    #emi_calculator {
+        margin-top: 14px
+    }
+
+    .calculator_loan_amt input {
+        height: auto;
+        font-size: 12px
+    }
+
+    .irs--round .irs-grid-text {
+        color: silver;
+        font-size: 12px !important
+    }
+
+    .about_dhanavarsha p {
+        padding-left: 10px
+    }
+
+    .contact_heading {
+        width: 100%;
+        padding-top: 5.5em
+    }
+
+    .contact_heading h2, .privacy_content h2 {
+        font-size: 35px;
+        text-align: center
+    }
+
+    .about_text h2 {
+        margin: 0 auto;
+        position: unset;
+        color: #fff;
+        font-weight: 700;
+        font-size: 35px;
+        margin-top: 62px
+    }
+
+    .links ul li {
+        font-size: 16px !important
+    }
+
+    .contact_Phone_Number {
+        margin: 15px 0
+    }
+
+    .privacy_content {
+        margin-top: 0;
+        padding-top: 20px;
+        float: none;
+        width: 100%
+    }
+
+    .contact_text h4 {
+        font-size: 22px
+    }
+
+    .contact_text {
+        margin-top: 16px
+    }
+
+    .row.head_office_main {
+        margin-top: 24px
+    }
+
+    .head_office_contact {
+        width: 100% !important;
+        margin-top: 100px
+    }
+
+    .testimonial1 {
+        margin-bottom: 20px !important
+    }
+
+    .testimonials {
+        margin-top: 0
+    }
+
+    .round_bg_icon {
+        width: 65%;
+        min-height: 100px
+    }
+
+    .heading h2, .heading_blog h2 {
+        font-size: 20px
+    }
+
+    .branches p, .branches2 p {
+        font-size: 15px;
+        margin-bottom: 0;
+        padding: 0 16px
+    }
+
+    .heading {
+        margin-bottom: 20px
+    }
+
+    .content_area, .content_area_right, .purple_2 img, .row.dot_img_down img {
+        width: 100%;
+        margin-top: 24px
+    }
+
+    .row.dot_img_down img {
+        margin: 9px 0 0 74px;
+        width: 62%
+    }
+
+    .row.dot_img_down img {
+        transform: skew(11deg, 12deg);
+        z-index: -1
+    }
+
+    .dot_img_up img {
+        margin: -22px 0 0 71px;
+        width: 62%
+    }
+
+    .dot_img_up img {
+        transform: skew(-13deg, -8deg);
+        z-index: -1
+    }
+
+    .purple_2 img {
+        margin-top: 17px
+    }
+
+    .new_content {
+        padding: 40px 0;
+        padding-bottom: 0;
+        margin-top: 0
+    }
+
+    .dfl_loans ul li a img {
+        width: 60%
+    }
+
+    .dfl_loans ul li {
+        margin: 0
+    }
+
+    .links h2 {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left
+    }
+
+    .dfl_loans {
+        margin-bottom: 30px
+    }
+
+    .links ul li {
+        font-size: 12px;
+        display: flex
+    }
+
+    .ptb h2, .ptb h4 {
+        font-size: 14px;
+        text-align: center
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5rem .1rem;
+        font-size: 12px
+    }
+
+    .sub_input {
+        margin-left: -15px;
+        margin-right: -15px
+    }
+
+    .bg-white {
+        width: 100% !important;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    .banner {
+        padding: 20px 0 38px 0
+    }
+
+    .process1 button {
+        position: absolute;
+        right: 0;
+        left: 45px;
+        bottom: -15px
+    }
+
+    .process_second {
+        margin-top: 0
+    }
+
+    .banner p {
+        display: none
+    }
+
+    .content_area {
+        padding-left: 0
+    }
+
+    .content_area h4, .content_area_right h4 {
+        font-size: 14px
+    }
+
+    .content_area p, .content_area_right p {
+        font-size: 12px
+    }
+
+    .video_youtube iframe {
+        width: 100%;
+        min-height: 320px
+    }
+
+    .about_heading {
+        margin: 0 auto;
+        position: unset;
+        width: 100%;
+        color: #fff;
+        padding-top: 70px
+    }
+
+    footer {
+        padding-top: 20px
+    }
+
+    .sub_beanches {
+        margin-bottom: 0
+    }
+
+    .mobile_banner {
+        background-image: url(../image/DFL_Banner_Image.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        min-height: 260px;
+        position: relative
+    }
+
+    .contact_spacing img {
+        padding: 10px
+    }
+
+    .latest_news {
+        margin-top: 20px;
+        margin-bottom: 10px !important
+    }
+
+    .border-right {
+        border-right: none !important;
+        border-left: none !important
+    }
+
+    .about_team_image img {
+        margin-bottom: 30px
+    }
+
+    .counting_mobile, .easy_process_mobile, .emi_calculation_mobile, .mobile_handburger {
+        display: block
+    }
+
+    .counting_dekstop, .emi_calculation, .process, hr {
+        display: none
+    }
+
+    .fadeInUp {
+        transform: inherit;
+        animation-name: inherit !important
+    }
+
+    .dfl_loans h2 {
+        font-size: 22px;
+        font-weight: 700
+    }
+
+    .stats_growing img {
+        width: 40%
+    }
+
+    .stats_growing h5 {
+        font-size: 14px
+    }
+
+    .counting_mobile {
+        font-size: 25px
+    }
+
+    .dfl_links {
+        padding-left: 0
+    }
+
+    .stats_growing {
+        margin-bottom: 50px
+    }
+
+    .loader_1 {
+        padding-bottom: 0
+    }
+
+    .hvr-bounce-to-bottom {
+        transform: inherit !important
+    }
+
+    #why_choose_dfl {
+        margin-top: 45px
+    }
+
+    .sidenav a {
+        font-size: 14px
+    }
+
+    .mobile_menus ul li {
+        color: #000;
+        padding: 8px 3px
+    }
+
+    .nav-item a {
+        padding-left: 24px !important
+    }
+
+    .row.dot_img_up {
+        margin: 0
+    }
+
+    .row.dot_img_down {
+        margin: 0
+    }
+
+    .privacy_banner_text {
+        color: #fff;
+        margin-top: 25px
+    }
+
+    .inner_area_personal_loan button {
+        width: 90%
+    }
+
+    .personal_loan_heading_bg h2 {
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        line-height: 75px;
+        font-size: 16px;
+        font-weight: 700
+    }
+
+    .personal_loan_colleteral, .personal_loan_multipurpose_loan {
+        padding: 20px 0 20px 0;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+
+    .personal_loan_colleteral {
+        position: relative;
+        top: 0
+    }
+
+    .multipurpose_personal_loan h3 {
+        font-size: 12px;
+        font-weight: 700;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 12px
+    }
+
+    .personal_loan_bg {
+        background-image: url(../image/personal-loan-mobile.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: contain;
+        min-height: 145px
+    }
+
+    .personal_loan_advantages_banner {
+        background-image: url(../image/personal-loan-advantage-mobile.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        min-height: 305px;
+        position: relative;
+        padding: 20px 0 20px 0
+    }
+
+    .about_personal_loan {
+        padding: 0 20px
+    }
+
+    .about_personal_loan {
+        margin-top: -30px
+    }
+
+    .carousel-indicators > li {
+        top: 75px
+    }
+
+    .accordion_image img, .who_can_take_personal_loan_image img {
+        width: 100%;
+        position: inherit;
+        margin-top: 30px
+    }
+
+    .category_banner_text h1, .category_banner_text img {
+        display: none
+    }
+
+    .category_banner_text h4 {
+        display: block;
+        font-weight: 700;
+        width: 87%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px
+    }
+
+    .verticle_line {
+        border-left: 2px solid #b4b4b4;
+        height: 44%;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 60px
+    }
+
+    .principal_amt_mobile h4, .total_payment_mobile h4 {
+        font-size: 14px;
+        padding: 10px 0
+    }
+
+    .principal_amt_mobile, .total_payment_mobile {
+        padding: 0
+    }
+
+    .total_payment_mobile {
+        border-left: 2px solid #ccc
+    }
+
+    .personal_loan_accordition_heading h2 button span {
+        font-size: 11px
+    }
+
+    .loan_against_heading_bg, .loan_against_semi_heading_bg {
+        width: 100%
+    }
+
+    .loan_against_heading_bg h2, .loan_against_semi_heading_bg h2 {
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 0 40px;
+        margin-top: 17px
+    }
+
+    .Enter_Loan_Amount input, .calculator_loan_amt input {
+        padding-left: 8px;
+        line-height: 2.5
+    }
+
+    .advantages_business_loan_wave h3, .advantages_home_loan_wave h3, .advantages_personal_loan_wave h3 {
+        padding: 0 6px;
+        font-size: 12px;
+        line-height: 14px
+    }
+
+    .dfl_home_loan_image img, .error_page_left {
+        position: inherit
+    }
+
+    .accordion_image, .dfl_home_loan_image, .error_hide_image, .left_banner ul, .who_can_take_personal_loan_image {
+        display: none
+    }
+
+    .accordion_image_mobile, .error_show_image, .who_can_take_personal_loan_image_mobile {
+        display: block
+    }
+
+    .accordion_image_mobile img, .error_page_left button, .who_can_take_personal_loan_image_mobile img {
+        width: 100%
+    }
+
+    .error_page_image img {
+        margin-top: 40px
+    }
+}
+
+@media (max-width: 320px) {
+    .links h2 {
+        font-size: 16px
+    }
+
+    .dfl_loans h2 {
+        font-size: 20px
+    }
+
+    .business_list ul li {
+        font-size: .7rem
+    }
+
+    .tooltip_on_hover .tooltiptext, .tooltip_on_hover .tooltiptext_goldLoan {
+        width: 63%;
+        font-size: 12px;
+        padding: 14px 0
+    }
+
+    .tooltip_on_hover:hover .tooltiptex_business, .tooltip_on_hover:hover .tooltiptext_goldLoan_business {
+        width: 63%;
+        font-size: 12px;
+        padding: 14px 0
+    }
+
+    .round_bg_icon {
+        width: 65%;
+        min-height: 84px
+    }
+
+    .row.dot_img_down img {
+        transform: skew(14deg, 25deg);
+        z-index: -1
+    }
+
+    .row.dot_img_down img {
+        margin: 9px 0 0 60px;
+        width: 62%
+    }
+
+    .personal_loan_heading_bg h2 {
+        font-size: 14px
+    }
+
+    .white_cal_loan_amt {
+        width: 100%
+    }
+
+    .white_cal_percentage {
+        width: 60%
+    }
+
+    .principal_amt_mobile h4, .total_payment_mobile h4 {
+        font-size: 12px
+    }
+
+    .nav-link, .personal_loan_accordition_heading h2 button span {
+        font-size: 9px
+    }
+
+    .links ul li a, .loan_against_heading_bg h2 {
+        font-size: 14px
+    }
+
+    .process1 button {
+        width: 70%;
+        padding: 8px 0;
+        font-weight: 700;
+        font-size: 12px;
+        position: absolute !important;
+        right: 0;
+        left: 33px !important;
+        bottom: -19px
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1025px) {
+    .dfl_loans h2, .links h2 {
+        font-size: 28px
+    }
+
+    .tooltip_on_hover .tooltiptex_business, .tooltip_on_hover .tooltiptext {
+        width: 60%
+    }
+
+    .manual_number span {
+        margin-left: 38px
+    }
+
+    .left_banner {
+        margin-top: 70px
+    }
+
+    .personal_loan_multipurpose_loan {
+        margin-top: 64px
+    }
+
+    .calculator1 h3 {
+        font-size: 18px
+    }
+
+    .category_banner_text h1, .menu_area {
+        width: 100%
+    }
+
+    .loan_against_heading_bg {
+        width: 90%
+    }
+
+    .loan_against_semi_heading_bg {
+        width: 80%
+    }
+
+    .white_cal_percentage h3 {
+        line-height: 1.2;
+        font-size: 1.6rem
+    }
+
+    .category_banner_paragraph p {
+        width: 50% !important
+    }
+
+    .auto_counter h2, .monthly_emi h4, .monthly_emi_normal h4 {
+        font-size: 22px;
+        width: 71%
+    }
+
+    .sub_input {
+        margin-left: -15px;
+        margin-right: -15px
+    }
+
+    .loan_tenure_tab h3 {
+        margin-top: 0 !important;
+        font-size: 1.6rem
+    }
+
+    #loan_amt_lakh {
+        font-size: 1.6rem
+    }
+
+    .personal_loan_heading h2 {
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: 39%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        -webkit-transform: translate(-50% -50%)
+    }
+
+    .white_cal, .white_cal_loan_amt, .white_cal_percentage {
+        box-shadow: 12px 1px 13px 4px #0000001a;
+        border-radius: 10px;
+        width: 100%;
+        float: right
+    }
+
+    .monthly_emi_normal {
+        padding: 31px 0 37px 0
+    }
+
+    .monthly_emi h4, .monthly_emi_normal h4 {
+        font-size: 28px
+    }
+
+    .process1 h3 {
+        font-size: 13px
+    }
+
+    .menu_area ul li {
+        margin-right: 0;
+        font-size: 14px
+    }
+
+    .calculator1 {
+        padding: 9px 30px
+    }
+
+    .loan_tenure_tab h3 {
+        margin-top: 8px
+    }
+
+    #emi_calculator {
+        margin-top: 0
+    }
+
+    .personal_loan_colleteral {
+        position: relative;
+        top: 115px
+    }
+
+    .multipurpose_personal_loan h3 {
+        width: 80%
+    }
+
+    .banner_tab {
+        box-shadow: 1px -1px 10px 2px #00000026;
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .process1 button {
+        position: absolute !important;
+        right: 0;
+        left: 37px !important;
+        bottom: -19px
+    }
+
+    .process_down {
+        margin-top: 20px
+    }
+
+    .dot_img_up img {
+        width: 80%;
+        margin: -21px 0 0 96px;
+        transform: skew(-5deg, -1deg);
+        z-index: -1
+    }
+}

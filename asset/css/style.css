@@ -1,0 +1,3554 @@
+:root {
+    --main-color: #18cd4f;
+}
+:root {
+    --footer-color: linear-gradient(to right, #006a4e, #5ca08e);
+    --copyright-color: linear-gradient(to right, #088765, #5ca08e);
+    --loan-color : #07812c;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ececec;
+    overflow-x: hidden
+}
+
+* {
+    box-sizing: border-box
+}
+.hvr-bob img{
+    width: 48px !important;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+html {
+    scroll-behavior: smooth
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+img {
+    image-rendering: crisp-edges
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: .5s;
+    text-align: center
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: .3s
+}
+
+.category_banner_paragraph p {
+    width: 60% !important
+}
+
+.loan_tenure_tab h3 {
+    margin-top: -3px;
+    text-align: center
+}
+
+.sidenav a:hover {
+    color: #f1f1f1
+}
+
+.product_dropdown {
+    line-height: 1.4
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block
+}
+
+.dropdown-menu {
+    box-shadow: 8px 7px 8px 0 #0000001c;
+    margin-top: 0;
+    border-top: 4px solid var(--main-color);
+    padding: 0
+}
+
+.dropdown-menu .dropdown-item {
+    border-bottom: 1px solid #0000000d;
+    padding: 12px 15px
+}
+
+.dropdown-menu .dropdown-item:last-child {
+    border-bottom: none
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -5px;
+    right: 55px;
+    font-size: 36px
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: var(--main-color)
+}
+
+.contact_text h4 {
+    color: #000
+}
+
+.carousel-indicators > li {
+    border-radius: 100%;
+    width: 25px;
+    height: 5px;
+    background: no-repeat;
+    background-color: #df1839;
+    position: relative;
+    top: 75px;
+    box-shadow: 7px 11px 8px 0 #00000052
+}
+
+.left_banner ul {
+    margin: 0;
+    padding: 0
+}
+
+.home_banner_heading h1 {
+    width: 75%
+}
+
+#loan_amt_lakh, #personal_loan_amt_lakh {
+    font-size: 1.75rem
+}
+
+.dfl_links {
+    padding-left: 100px
+}
+
+.loan_product_arrow {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #0d0a64
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: inherit !important
+}
+
+.left_banner ul li i {
+    margin-right: 22px;
+    color: #fd651c;
+    font-weight: 700
+}
+
+.left_banner ul li {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 700
+}
+
+.dropdown-item, .navbar-light .navbar-nav .nav-link {
+    color: #000
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border: none !important
+}
+
+.dropdown-item:hover .nav-link {
+    color: #fff !important
+}
+
+.nav-link {
+    border: none !important
+}
+
+.top_form_banner {
+    width: 90%;
+    margin: 0 auto
+}
+
+.menu_area ul li {
+    margin-right: 10px;
+    cursor: pointer;
+    line-height: 59px
+}
+
+.menu_area ul li a:hover {
+    color: #fff !important
+}
+
+.dropdown:hover > .nav-link {
+    color: #fff
+}
+
+.navbar-light .navbar-nav .show:hover > .nav-link {
+    color: #fff
+}
+
+.sub_input {
+    margin: 0
+}
+
+.menus li a {
+    font-weight: 700;
+    color: #000
+}
+
+.privacy_first_para {
+    margin-top: 30px
+}
+
+.banner {
+    background-image: url(../images/home/banner_Image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 700px;
+    color: #fff;
+    padding: 20px 0 66px 0
+}
+
+.banner button {
+    color: #fff;
+    background: 0 0;
+    border: none;
+    background-color: #0d0a64;
+    padding: 10px 50px;
+    border-radius: 100px;
+    font-size: 22px;
+    transition: .5s
+}
+
+.banner button:hover {
+    background-color: #df1839;
+    transition-timing-function: linear
+}
+
+.banner p {
+    padding: 10px 0 30px 0;
+    font-size: 21px;
+    width: 70%
+}
+
+.calculator_loan_amt input {
+    height: 41px;
+    border: none;
+    width: 100%;
+    outline: 0;
+    font-size: 1.75rem;
+    text-align: center
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+    margin: 0
+}
+
+.apply_btn_mobile, .contact_image img, .error_page_image img, .error_show_image img, form {
+    width: 100%
+}
+
+.who_can_take_personal_loan_image img {
+    width: 100%;
+    margin-top: 72px
+}
+
+.dfl_home_loan_image img {
+    width: 100%;
+    position: absolute;
+    bottom: 0
+}
+
+.input_fiel input, .input_fiel select {
+    width: 90%;
+    border: none;
+    border: #0000000f solid 1px;
+    padding: 10px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    box-shadow: 5px 5px 10px #67676726
+}
+
+.input_fiel {
+    text-align: center
+}
+
+.card-header h2 {
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    box-shadow: -1px 11px 10px 2px #00000026
+}
+
+.blog_header {
+    box-shadow: none !important;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+    border-radius: 100px !important
+}
+
+.input_fiel input[type=submit] {
+    background: 0 0;
+    border: none;
+    background-color: var(--main-color);
+    width: 90%;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 100px;
+    transition: 1s
+}
+
+.input_fiel input::placeholder {
+    font-size: .9rem;
+    color: #000
+}
+
+.contact_spacing img {
+    width: 100%
+}
+
+.Apply_btn button:hover, .input_fiel input[type=submit]:hover {
+    background-color: var(--main-color)
+}
+
+.nav-tabs {
+    background-color: #fff;
+    border-radius: 22px
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    transition: 1s
+}
+
+section#tabs {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.heading {
+    background-image: url(../images/home/heading_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 457px;
+    min-height: 75px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 40px;
+    z-index: -9
+}
+
+.heading_blog {
+    background-image: url(../images/home/heading_background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 527px;
+    min-height: 75px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 70px
+}
+
+.about_heading_content h2, .heading h2, .heading_blog h2 {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: 700
+}
+
+.process_second {
+    margin-top: 45px
+}
+
+#why_choose_dfl, .new_content {
+    margin-top: 70px
+}
+
+.process1, .process_top {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 60px !important;
+    box-shadow: 8px 7px 8px 0 #00000052
+}
+
+.process1 img, .process_top img {
+    width: 25% !important;
+    margin: 0 auto
+}
+
+.process1 h3, .process_top h3 {
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 700
+}
+
+.process1 h3 a, .process_top h3 a {
+    text-decoration: none;
+    color: #212529
+}
+
+.process1 button {
+    background: 0 0;
+    border: none;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    width: 70%;
+    padding: 10px 0;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    left: 46px;
+    bottom: -19px;
+    outline: 0;
+    font-size: 14px;
+    transition: 1s !important
+}
+
+.process_top button {
+    background: 0 0;
+    border: none;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    width: 70%;
+    padding: 10px 0;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    left: 41px;
+    bottom: -19px;
+    outline: 0;
+    font-size: 14px;
+    transition: 1s !important
+}
+
+.process1 button:hover, .process_top button:hover {
+    background-color: var(--main-color) !important;
+}
+
+.process_down {
+    margin-top: 25px
+}
+
+.purple {
+    background-color: #540f56;
+    width: 100%;
+    min-height: 162px;
+    border-radius: 100px
+}
+
+.content_area {
+    width: 40%;
+    margin-top: 19px
+}
+
+.content_area_right {
+    width: 40%;
+    float: right;
+    margin-top: 30px
+}
+
+.row.dot_img_down img {
+    width: 80%;
+    margin: -11px 0 0 106px;
+    transform: skew(16deg, 4deg);
+    z-index: -1
+}
+
+.banner_tab {
+    box-shadow: 1px -1px 10px 2px #00000026;
+    width: 75%;
+    margin: 0 auto
+}
+
+.dot_img_up img {
+    width: 80%;
+    margin: -60px 0 0 126px;
+    transform: skew(-29deg, -1deg);
+    z-index: -1
+}
+
+.card {
+    border-radius: .55rem;
+    box-shadow: 3px 9px 12px 5px #00000045;
+    border: none
+}
+
+.calculator1 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 30px;
+    margin: 0 0 22px 0;
+    box-shadow: 8px 7px 8px 0 #00000052;
+    width: 97%
+}
+
+.red_cal h4 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%)
+}
+
+.irs--round .irs-bar {
+    top: 35px !important;
+    height: 8px !important;
+    background-color: var(--main-color) !important;
+}
+
+.irs--round .irs-handle {
+    top: 20px !important;
+    width: 34px !important;
+    height: 34px !important;
+    border: #fff solid 4px !important;
+    background-color: var(--main-color) !important;
+    border-radius: 24px;
+    box-shadow: 0 1px 3px rgb(0, 0, 255, .3);
+    cursor: pointer
+}
+
+.irs--round .irs-grid-text {
+    color: #0e0e0e !important;
+    font-size: 16px !important;
+    font-weight: 700 !important
+}
+
+.error_show_image, .irs--round .irs-grid-pol, .mobile_handburger {
+    display: none
+}
+
+.navbar-brand img {
+    width: 61%
+}
+
+.irs--round .irs-from, .irs--round .irs-single, .irs--round .irs-to {
+    background-color: var(--main-color) !important
+}
+
+.irs--round .irs-line {
+    height: 8px !important
+}
+
+.white_cal, .white_cal_loan_amt, .white_cal_percentage {
+    box-shadow: 12px 1px 13px 4px #0000001a;
+    border-radius: 10px;
+    width: 92%;
+    float: right
+}
+
+.red_cal {
+    background-color: var(--main-color) !important;
+    color: #fff;
+    border-radius: 0 10px 10px 0
+}
+
+.monthly_emi {
+    background-color: var(--main-color);
+    padding: 50px 0
+}
+
+.testimonial1 {
+    background-color: #fff;
+    margin: 0 auto !important;
+    text-align: center;
+    width: 80%;
+    padding: 20px 12px;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 8px 7px 8px 0 #00000052
+}
+
+.testimonial1 h4 {
+    margin: 16px 0
+}
+
+.about_text h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 148px;
+    font-size: 45px
+}
+
+.privacy_banner_text {
+    color: #fff;
+    margin-top: 100px
+}
+
+.privacy_banner_text p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 25px
+}
+
+.privacy_banner_text h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 45px
+}
+
+.about_image img {
+    margin-top: 40px
+}
+
+.about_banner, .contact_banner {
+    background-image: url(../images/about/DFL_Banner_Image.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    min-height: 500px;
+    position: relative;
+    padding: 20px 0
+}
+
+.branch_ofc {
+    background-image: url(../images/contact/map-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    margin-top: 60px
+}
+
+.branch_offices_area {
+    margin-top: 60px
+}
+
+.short_add p {
+    padding-bottom: 24px
+}
+
+.video_frame {
+    background: url(../image/about-video.png) no-repeat;
+    background-size: contain;
+    padding: 18px;
+    width: 100%;
+    height: 400px
+}
+
+.video_frame video {
+    margin: 34px 0 0 33px
+}
+
+.video_frame iframe {
+    border-radius: 20px
+}
+
+.google_map iframe {
+    width: 100%;
+    box-shadow: 8px 7px 8px 0 #00000052
+}
+
+.contact_Phone_Number {
+    background: 0 0 no-repeat padding-box #fff;
+    box-shadow: 15px 10px 15px #716b6b2b;
+    border-radius: 8px;
+    padding: 20px 0 20px 25px
+}
+
+.head_office_contact {
+    background: 0 0 no-repeat padding-box #fff;
+    box-shadow: 15px 10px 15px #716b6b2b;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 8px 20px;
+    text-align: center;
+    margin-top: 110px
+}
+
+.head_office_contact img {
+    margin-top: -75px
+}
+
+.row.head_office_main {
+    margin-top: 0;
+    margin-bottom: 40px
+}
+
+.contact_field {
+    margin-top: 20px
+}
+
+.branch_office {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px
+}
+
+.sub_beanches {
+    margin-bottom: 50px
+}
+
+.branches {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 15px 10px 15px #716b6b2b;
+    border-radius: 8px;
+    margin: 15px 0;
+    min-height: 84%
+}
+
+.branches2 {
+    background-color: #fff;
+    width: 70%;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 15px 10px 15px #716b6b2b;
+    border-radius: 8px;
+    margin: 15px 0;
+    min-height: 84%
+}
+
+.contact_text p {
+    margin: 0;
+    font-size: 18px
+}
+
+.about_heading {
+    margin: 0 auto;
+    position: absolute;
+    top: 32%;
+    right: 0;
+    width: 35%;
+    color: #fff;
+    left: 45%
+}
+
+.about_heading h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0 auto;
+    padding: 15px 0
+}
+
+.contact_heading {
+    color: #fff;
+    font-weight: 700;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 11em;
+    float: right
+}
+
+.contact_heading h2, .privacy_content h2 {
+    font-size: 58px
+}
+
+.contact_heading p, .privacy_content p {
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400
+}
+
+.about_heading_content {
+    background-image: url(../images/about/heading_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 557px;
+    min-height: 75px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 20px
+}
+
+.about_section p {
+    padding-left: 30px;
+    text-align: justify
+}
+
+.about_us_video {
+    margin-top: 70px
+}
+
+.monthly_emi {
+    background-color: var(--main-color);
+    padding: 42px 0;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 8px 7px 8px 0 #00000052;
+    z-index: 1;
+    position: relative
+}
+
+.calculator1 h3 {
+    margin-left: 10px;
+    position: relative;
+    top: 4px
+}
+
+.white_cal_percentage h3 {
+    text-align: center
+}
+
+.monthly_emi_normal {
+    background-color: #fff;
+    padding: 41px 0 44px 0;
+    color: #000;
+    text-align: center;
+    box-shadow: 8px 7px 8px 0 #00000052
+}
+
+.monthly_emi h4 {
+    margin: 0 auto;
+    font-size: 38px;
+    font-weight: 700;
+    width: 54%
+}
+
+.middle_line {
+    border-bottom: 2px solid #9e9898a3;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto
+}
+
+.monthly_emi_normal h4 {
+    margin: 0 auto;
+    font-size: 30px;
+    width: 58%
+}
+
+.Apply_btn button {
+    background: 0 0;
+    border: none;
+    background-color: var(--main-color);
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    outline: 0
+}
+
+.counting, .stats_growing {
+    text-align: center;
+    font-weight: 700
+}
+
+.counting_mobile, .mobile_accordition_img {
+    display: none
+}
+
+.stats_growing img {
+    margin-bottom: 20px
+}
+
+.loding_area {
+    text-align: center
+}
+
+.loding_area h2, .loding_area h5 {
+    font-weight: 700
+}
+
+.round_bg_icon img {
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.loader_1 {
+    background-color: var(--main-color);
+    background-image: var(--footer-color);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 60px 0 40px 0
+}
+
+.border_left {
+    border-right: 2px solid #000
+}
+
+.pb-60 {
+    padding-bottom: 60px
+}
+
+.spacing {
+    padding-left: 50px
+}
+
+.choose1 h2, .choose2 h2 {
+    font-weight: 700;
+    color: #000;
+    font-size: 20px
+}
+
+.bg_img {
+    background-image: url(../images/home/financial-obligation-document.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px
+}
+
+.loader_emi {
+    background-color: #fff;
+    padding: 20px 10px
+}
+
+.card_ftr_btn button {
+    background: 0 0;
+    border: none;
+    background-image: linear-gradient(to right, #0d0a64, #bf163f);
+    color: #fff;
+    width: 40%;
+    padding: 10px 10px;
+    border-radius: 10px 0 10px 0;
+    float: right
+}
+
+.white_cal_tenure {
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 12px 1px 13px 4px #0000001a
+}
+
+.latest_news {
+    position: relative;
+    margin-bottom: 120px
+}
+
+.loan_tenure_main {
+    border-radius: 10px !important;
+    background-color: #ccc;
+    font-size: 14px
+}
+
+.loan_tenure_yr {
+    border-radius: 8px 0 0 8px !important;
+    padding: 10px 0
+}
+
+.loan_tenure_mo {
+    border-radius: 0 8px 8px 0 !important;
+    padding: 10px 0
+}
+
+.dfl_loans ul {
+    padding: 0
+}
+
+.dfl_loans ul li {
+    float: left
+}
+
+.links ul li {
+    margin: 0 0 17px 0;
+    transition: .5s;
+    display: flex
+}
+
+.links ul li a {
+    color: #fff
+}
+
+.dfl_loans ul li a img {
+    width: 70%;
+    image-rendering: crisp-edges
+}
+
+.ptb h2 span {
+    font-size: 23px
+}
+
+.latest_news, .testimonials {
+    margin-top: 80px
+}
+
+.slider_testimonials {
+    padding-bottom: 80px
+}
+
+footer {
+    background-image: var(--footer-color);
+
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 50px 0 10px 0
+}
+
+.copyRight-section {
+    /*background-color: #099935;*/
+    background: var(--copyright-color);
+}
+
+.label_h2 h2 {
+    margin-top: 10px
+}
+
+.ptb {
+    margin: 30px 0 20px 0;
+    padding: 20px 0
+}
+
+.apply_now_btn button {
+    background: 0 0;
+    border: none;
+    background-color: #df1839;
+    color: #fff;
+    width: 80%;
+    padding: 14px 0;
+    border-radius: 30px;
+    font-size: 20px;
+    outline: 0
+}
+
+.apply_now {
+    background-color: #0d0a64;
+    padding: 20px 20px;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 120px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    box-shadow: 0 1px 14px 8px #ffffff26
+}
+
+.light_bg {
+    background-color: #18157c;
+    padding: 10px 20px;
+    border-radius: 15px
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 700
+}
+
+.links ul {
+    padding: 0
+}
+
+.item__third:first-child, .item__third:last-child {
+    display: none;
+    margin-bottom: 13px
+}
+
+@media (min-width: 500px) {
+    .carousel-control-next, .carousel-control-prev {
+        background: rgb(255, 255, 255, .3);
+        z-index: 11
+    }
+
+    .carousel-item-next:not(.carousel-item-left), .carousel-item-right.active {
+        transform: translate3d(33%, 0, 0)
+    }
+
+    .carousel-item-left.active, .carousel-item-prev:not(.carousel-item-right) {
+        transform: translate3d(-33%, 0, 0)
+    }
+
+    .item__third {
+        display: block !important;
+        float: left;
+        position: relative;
+        width: 33.33333333%
+    }
+}
+
+input.error {
+    border: red solid 2px;
+    font-weight: 300;
+    color: red
+}
+
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+    display: none !important
+}
+
+.submit_form {
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 70px 0
+}
+
+.submit_form h4 {
+    font-weight: 700;
+    line-height: 40px;
+    margin: 50px 0
+}
+
+.submit_form img {
+    width: 110px
+}
+
+.about_text p {
+    color: #fff;
+    font-size: 22px
+}
+
+.term_header {
+    background-image: url(../image/terms&condition.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    min-height: 580px;
+    position: relative
+}
+
+.privacy_content {
+    float: right;
+    text-align: center;
+    color: #fff;
+    width: 40%;
+    margin-right: 60px;
+    margin-top: 130px
+}
+
+.privacy_content img {
+    width: 10%
+}
+
+.privacy_content h2 {
+    margin: 20px 0
+}
+
+.privacy_text {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px
+}
+
+.privacy_text ul li {
+    margin: 15px 0
+}
+
+.privacy_text h4 {
+    border-bottom: 1px solid #9c9393;
+    padding-bottom: 8px
+}
+
+.ptb p {
+    margin: 0 auto
+}
+
+.mt-10 {
+    margin-top: 24px
+}
+
+.purple_2 img {
+    width: 70%
+}
+
+.video_bg {
+    padding-bottom: 20px;
+    border-radius: 10px;
+    text-align: center
+}
+
+.video_youtube iframe {
+    width: 60%;
+    min-height: 600px;
+    border-radius: 10px
+}
+
+.about_heading p {
+    font-size: 22px;
+    text-align: center
+}
+
+.counting_mobile, .easy_process_mobile {
+    display: none
+}
+
+.personal_loan_bg {
+    background-image: url(../images/gold-loan/about_personalLoan.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    min-height: 325px
+}
+
+.personal_loan_heading h2 {
+    color: #fff;
+    margin-top: 5.5rem
+}
+
+.personal_loan_heading {
+    display: flex;
+    justify-content: space-around
+}
+
+.personal_loan_area {
+    background-color: #fff
+}
+
+.personal_loan_heading_bg {
+    background-image: url(../images/gold-loan/heading_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 590px;
+    min-height: 75px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.loan_against_heading_bg h2, .loan_against_semi_heading_bg h2, .personal_loan_heading_bg h2 {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.about_personal_loan ul, .inner_area_personal_loan ul {
+    padding-left: 0
+}
+
+.about_personal_loan ul li, .inner_area_personal_loan ul li {
+    margin: 15px 0
+}
+
+.about_personal_loan ul li img, .inner_area_personal_loan ul li img {
+    width: 25px;
+    margin-right: 10px;
+    float: left
+}
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #eee
+}
+
+.about_personal_loan ul li span, .inner_area_personal_loan ul li span {
+    display: flex
+}
+
+.personal_loan_accordition_heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #fff;
+    border-color: #eee
+}
+
+.loan_accordiation {
+    margin: 20px 0;
+    box-shadow: 5px 5px 15px #a8a0a029
+}
+
+.personal_loan_accordition_heading h2 button {
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700
+}
+
+.personal_loan_accordition_heading h2 button img {
+    width: 30px;
+    margin-right: 10px;
+    float: left
+}
+
+.personal_loan_accordition_heading h2 button:hover {
+    color: #000;
+    text-decoration: none
+}
+
+.panel-title {
+    font-size: 14px
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+    margin-top: 6px
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #eee;
+    padding: 10px 0 10px 17px
+}
+
+.panel-title img {
+    width: 30px;
+    margin-right: 10px
+}
+
+.accordion_image img {
+    width: 100%;
+    margin-top: 100px
+}
+
+.accordion_image_mobile, .who_can_take_personal_loan_image_mobile {
+    display: none
+}
+
+.personal_loan_advantages_banner {
+    background-image: url(../images/gold-loan/personal-loan-advantage-banner.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    min-height: 305px;
+    position: relative
+}
+
+.advantages_business_loan_wave, .advantages_home_loan_wave, .advantages_personal_loan_wave, .multipurpose_personal_loan {
+    text-align: center
+}
+
+.advantages_business_loan_wave img, .advantages_home_loan_wave img, .advantages_personal_loan_wave img, .multipurpose_personal_loan img {
+    width: 35%
+}
+
+.multipurpose_personal_loan h3 {
+    font-size: 18px;
+    font-weight: 700;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 12px
+}
+
+.advantages_business_loan_wave h3, .advantages_home_loan_wave h3, .advantages_personal_loan_wave h3 {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 12px
+}
+
+.personal_loan_multipurpose_loan {
+    margin-top: 40px
+}
+
+.personal_loan_colleteral {
+    position: relative;
+    top: 120px
+}
+
+.who_can_take_personal_loan_center {
+    background-color: var(--main-color);
+    padding: 20px 20px;
+    position: relative
+}
+
+.inner_area_personal_loan_center {
+    color: #fff;
+    background-color: #060433;
+    padding: 20px 25px;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.who_can_take_personal_loan {
+    background-color: var(--main-color);
+    padding: 20px 20px
+}
+
+.inner_area_personal_loan {
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 20px 25px
+}
+
+.inner_area_personal_loan button {
+    background: 0 0;
+    border: none;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    width: 30%;
+    padding: 10px 0;
+    color: #fff;
+    outline: 0;
+    font-size: 14px;
+    transition: 1s !important;
+    margin-top: 5px
+}
+
+.apply_personal_loan {
+    margin: 40px 0;
+    background-color: #fff
+}
+
+.inner_area_personal_loan h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px
+}
+
+.testimonials_bg {
+    background-image: url(../image/BG-Testinmonial.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    min-height: 505px;
+    position: relative
+}
+
+.about_personal_loan {
+    margin-top: -40px
+}
+
+.banner_img_resize img {
+    width: 80% !important;
+    margin-top: -80px
+}
+
+.category_banner_text img {
+    width: 70%
+}
+
+.category_banner_text {
+    text-align: center
+}
+
+.category_banner_text h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin: 0 auto
+}
+
+.category_banner_text p {
+    text-align: center;
+    margin: 0 auto;
+    width: 77%
+}
+
+.category_banner_text h4 {
+    display: none
+}
+
+.emi_calculation_mobile {
+    display: none
+}
+
+.accordion_submit_button button {
+    background: 0 0;
+    border: none;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    outline: 0;
+    font-size: 14px;
+    transition: 1s !important;
+    margin-top: 20px
+}
+
+.personal_loan_calculator {
+    margin-top: 40px !important
+}
+
+.principal_amt_mobile span, .total_payment_mobile span {
+    position: relative;
+    top: -4px
+}
+
+.loan_against_heading_bg {
+    background-image: url(../images/micro/heading_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 70%;
+    min-height: 75px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.toggle_image img {
+    width: 90%
+}
+
+.loan_against_semi_heading_bg {
+    background-image: url(../images/property/heading_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60%;
+    min-height: 75px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px
+}
+
+.LAP_advantages h3 {
+    width: 70% !important
+}
+
+.star_mark {
+    margin-top: 20px;
+    font-size: 12px;
+    font-style: italic
+}
+
+.sticky_button {
+    display: none
+}
+
+.error_page_left button {
+    background: 0 0;
+    border: none;
+    background-color: #df1839;
+    color: #fff;
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    outline: 0
+}
+
+.error_page {
+    padding: 30px;
+    position: relative
+}
+
+.error_page_left {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.error_page_left p {
+    font-size: 18px;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin: 0 auto
+}
+
+.null_value select {
+    pointer-events: none;
+    background-color: #efefef;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
+
+.banner_select {
+    width: 90%;
+    border: #0000000f solid 1px;
+    padding: 10px 16px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    box-shadow: 1px 6px 7px 3px #0000002e;
+    outline: 0;
+    overflow: auto
+}
+
+.banner_select option:hover:before {
+    display: inline
+}
+
+.manual_number span, .negative_industry_style {
+    color: red;
+    width: 90%;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 44px;
+    font-style: italic
+}
+
+.form_tab {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.business_form_btn a {
+    cursor: auto
+}
+
+.tooltip_on_hover {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.tooltip_on_hover .tooltiptext, .tooltiptext_goldLoan {
+    display: none;
+    width: 120px;
+    background-color: #f1c40f;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 18%;
+    left: 59%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity .3s;
+    width: 50%;
+    font-style: inherit
+}
+
+.tooltip_on_hover .tooltiptex_business {
+    display: none;
+    width: 120px;
+    background-color: #f1c40f;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 18%;
+    left: 59%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity .3s;
+    width: 50%;
+    font-style: inherit
+}
+
+.tooltip_on_hover .tooltiptext_goldLoan {
+    display: none;
+    width: 120px;
+    background-color: #f1c40f;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 18%;
+    left: 59%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity .3s;
+    width: 50%;
+    font-style: inherit
+}
+
+.tooltip_on_hover .tooltiptext_goldLoan_business {
+    display: none;
+    width: 120px;
+    background-color: #f1c40f;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 18%;
+    left: 59%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity .3s;
+    width: 50%;
+    font-style: inherit
+}
+
+.tooltip_on_hover .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #f1c40f transparent transparent
+}
+
+.tooltip_on_hover .tooltiptext_goldLoan::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #f1c40f transparent transparent
+}
+
+.tooltip_on_hover .tooltiptext_goldLoan_business::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #f1c40f transparent transparent
+}
+
+.tooltip_on_hover .tooltiptex_business::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #f1c40f transparent transparent
+}
+
+.tooltip_on_hover:hover .tooltiptext_goldLoan {
+    display: block;
+    opacity: 1
+}
+
+.tooltip_on_hover:hover .tooltiptext_goldLoan_business {
+    display: block;
+    opacity: 1
+}
+
+.tooltip_on_hover:hover .tooltiptext {
+    display: block;
+    opacity: 1
+}
+
+.tooltip_on_hover:hover .tooltiptex_business {
+    display: block;
+    opacity: 1
+}
+
+.tab-pane.fade {
+    transition: all .4s;
+    transform: translateY(1rem)
+}
+
+.tab-pane.fade.show {
+    transform: translateY(0)
+}
+
+.select_dropdown_area-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 95%
+}
+
+.select_dropdown_un {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 95%
+}
+
+.select_dropdown_area-wrapper select {
+    display: none
+}
+
+.select_dropdown_area {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.select_dropdown_area-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    box-shadow: 5px 5px 10px #67676726;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.select_dropdown_area-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.select_dropdown_area-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.select_dropdown_area.opened .select_dropdown_area-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 76%;
+    left: 0;
+    right: 0;
+    margin: 0 0;
+    border: 1px solid #b5b5b5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px #00000029;
+    background: #fff;
+    transition: all .3s ease-in-out;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-15px)
+}
+
+.select_dropdown_area.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.option-hover:before {
+    background: #f9f9f9
+}
+
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 22px;
+    border-bottom: 1px solid #0000000d;
+    text-align: left;
+    font-size: 14px;
+    color: #403f3f;
+    line-height: 42px;
+    cursor: pointer;
+    transition: all .15s ease-in-out
+}
+
+.custom-option:first-of-type {
+    border-radius: 4px 4px 0 0
+}
+
+.custom-option:last-of-type {
+    border-bottom: 0;
+    border-radius: 0 0 4px 4px
+}
+
+.custom-option:hover {
+    background: #f2f0f0
+}
+
+.gold_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.gold_drop_down-wrapper select {
+    display: none
+}
+
+.gold_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.gold_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.gold_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.gold_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.gold_drop_down.opened .gold_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.gold_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.branch_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.branch_drop_down-wrapper select {
+    display: none
+}
+
+.branch_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.branch_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.branch_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.branch_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.branch_drop_down.opened .branch_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.branch_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.gold_drop_down_business-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.gold_drop_down_business-wrapper select {
+    display: none
+}
+
+.gold_drop_down_business {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.gold_drop_down_business-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.gold_drop_down_business-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.gold_drop_down_business-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.gold_drop_down_business.opened .gold_drop_down_business-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.gold_drop_down_business.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.branch_drop_down_business-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.branch_drop_down_business-wrapper select {
+    display: none
+}
+
+.branch_drop_down_business {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.branch_drop_down_business-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.branch_drop_down_business-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.branch_drop_down_business-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.branch_drop_down_business.opened .branch_drop_down_business-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.branch_drop_down_business.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.is_credit_card_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.is_credit_card_drop_down-wrapper select {
+    display: none
+}
+
+.is_credit_card_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.is_credit_card_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.is_credit_card_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.is_credit_card_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.is_credit_card_drop_down.opened .is_credit_card_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.is_credit_card_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.is_on_going_loan_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.is_on_going_loan_drop_down-wrapper select {
+    display: none
+}
+
+.is_on_going_loan_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.is_on_going_loan_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.is_on_going_loan_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.is_on_going_loan_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.is_on_going_loan_drop_down.opened .is_on_going_loan_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.is_on_going_loan_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.on_going_loan_type1_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.on_going_loan_type1_drop_down-wrapper select {
+    display: none
+}
+
+.on_going_loan_type1_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.on_going_loan_type1_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.on_going_loan_type1_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.on_going_loan_type1_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.on_going_loan_type1_drop_down.opened .on_going_loan_type1_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.on_going_loan_type1_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.on_going_loan_type2_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.on_going_loan_type2_drop_down-wrapper select {
+    display: none
+}
+
+.on_going_loan_type2_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.on_going_loan_type2_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.on_going_loan_type2_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.on_going_loan_type2_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.on_going_loan_type2_drop_down.opened .on_going_loan_type2_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.on_going_loan_type2_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.on_going_loan_type3_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.on_going_loan_type3_drop_down-wrapper select {
+    display: none
+}
+
+.on_going_loan_type3_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.on_going_loan_type3_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.on_going_loan_type3_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.on_going_loan_type3_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.on_going_loan_type3_drop_down.opened .on_going_loan_type3_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.on_going_loan_type3_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.employment_type_salary_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.employment_type_salary_drop_down-wrapper select {
+    display: none
+}
+
+.employment_type_salary_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.employment_type_salary_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.employment_type_salary_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.employment_type_salary_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.employment_type_salary_drop_down.opened .employment_type_salary_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.employment_type_salary_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.salary_credit_pl_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.salary_credit_pl_drop_down-wrapper select {
+    display: none
+}
+
+.salary_credit_pl_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.salary_credit_pl_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.salary_credit_pl_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.salary_credit_pl_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.salary_credit_pl_drop_down.opened .salary_credit_pl_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.salary_credit_pl_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9;
+    height: 15rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+    top: -18px
+}
+
+.salary_credit_pl_drop_down .custom-options {
+    height: 20rem;
+    overflow: hidden
+}
+
+.is_credit_card_business_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.is_credit_card_business_drop_down-wrapper select {
+    display: none
+}
+
+.is_credit_card_business_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.is_credit_card_business_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.is_credit_card_business_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.is_credit_card_business_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.is_credit_card_business_drop_down.opened .is_credit_card_business_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.is_credit_card_business_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.is_on_going_loan_business_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.is_on_going_loan_business_drop_down-wrapper select {
+    display: none
+}
+
+.is_on_going_loan_business_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.is_on_going_loan_business_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.is_on_going_loan_business_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.is_on_going_loan_business_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.is_on_going_loan_business_drop_down.opened .is_on_going_loan_business_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.is_on_going_loan_business_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.on_going_loan_type_business_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.on_going_loan_type_business_drop_down-wrapper select {
+    display: none
+}
+
+.on_going_loan_type_business_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.on_going_loan_type_business_drop_down-trigger {
+    position: relative;
+    display: block;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    box-shadow: 1px 6px 7px 3px #0000002e;
+    color: #403f3f;
+    font-size: 12px;
+    text-align: left;
+    cursor: pointer
+}
+
+.on_going_loan_type_business_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.on_going_loan_type_business_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.on_going_loan_type_business_drop_down.opened .on_going_loan_type_business_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.on_going_loan_type_business_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.employment_type_business_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.employment_type_business_drop_down-wrapper select {
+    display: none
+}
+
+.employment_type_business_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.employment_type_business_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.employment_type_business_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.employment_type_business_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.employment_type_business_drop_down.opened .employment_type_business_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.employment_type_business_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.list_of_industries_names_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.list_of_industries_names_drop_down-wrapper select {
+    display: none
+}
+
+.list_of_industries_names_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.list_of_industries_names_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 100%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.list_of_industries_names_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.list_of_industries_names_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.list_of_industries_names_drop_down.opened .list_of_industries_names_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.list_of_industries_names_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9;
+    height: 15rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+    top: -18px
+}
+
+.on_going_loan_type_business1_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.on_going_loan_type_business1_drop_down-wrapper select {
+    display: none
+}
+
+.on_going_loan_type_business1_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.on_going_loan_type_business1_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 90%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.on_going_loan_type_business1_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.on_going_loan_type_business1_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.on_going_loan_type_business1_drop_down.opened .on_going_loan_type_business_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.on_going_loan_type_business1_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.on_going_loan_type_business2_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.on_going_loan_type_business2_drop_down-wrapper select {
+    display: none
+}
+
+.on_going_loan_type_business2_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.on_going_loan_type_business2_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 90%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.on_going_loan_type_business2_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.on_going_loan_type_business2_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.on_going_loan_type_business2_drop_down.opened .on_going_loan_type_business_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.on_going_loan_type_business2_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.on_going_loan_type_business3_drop_down-wrapper {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    width: 90%
+}
+
+.on_going_loan_type_business3_drop_down-wrapper select {
+    display: none
+}
+
+.on_going_loan_type_business3_drop_down {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.on_going_loan_type_business3_drop_down-trigger {
+    position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 5px 5px 10px #67676726;
+    width: 90%;
+    border: #0000000f solid 1px;
+    padding: 14px 20px;
+    margin: 13px 0;
+    border-radius: 10px;
+    outline: 0;
+    color: #000;
+    font-size: .9rem;
+    text-align: left;
+    cursor: pointer
+}
+
+.on_going_loan_type_business3_drop_down-trigger:hover {
+    background-color: #f9f9f9;
+    transition: all .3s
+}
+
+.on_going_loan_type_business3_drop_down-trigger:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 25px;
+    margin-top: -3px;
+    border-bottom: 1px solid #5f5f5f;
+    border-right: 1px solid #5f5f5f;
+    transform: rotate(45deg) translateY(-50%);
+    transition: all .4s ease-in-out;
+    transform-origin: 50% 0
+}
+
+.on_going_loan_type_business3_drop_down.opened .on_going_loan_type_business_drop_down-trigger:after {
+    margin-top: 3px;
+    transform: rotate(-135deg) translateY(-50%)
+}
+
+.on_going_loan_type_business3_drop_down.opened .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+    z-index: 9
+}
+
+.contact_image img {
+    margin-top: 30px
+}
+
+.all_items h2 {
+    position: relative;
+    top: 260px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.all_items {
+    background: #fff;
+    position: fixed;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999999
+}
+
+.progress {
+    width: 100px;
+    height: 100px;
+    background: 0 0;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+    top: 250px;
+    transform: scaleX(-1)
+}
+
+.progress-value {
+    transform: scaleX(-1)
+}
+
+.progress:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5
+}
+
+.progress > span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1
+}
+
+.progress .progress-left {
+    left: 2
+}
+
+.progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: 0 0;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0
+}
+
+.progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left
+}
+
+.progress .progress-right {
+    right: 1px
+}
+
+.progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading 1.8s linear forwards
+}
+
+.progress .progress-value {
+    width: 79%;
+    height: 79%;
+    border-radius: 50%;
+    background: 0 0;
+    font-size: 24px;
+    color: #000;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: -17%;
+    left: 10%
+}
+
+.progress-value svg {
+    width: 80%
+}
+
+.progress.one .progress-bar {
+    border-color: #050339
+}
+
+.progress.one .progress-left .progress-bar {
+    animation: loading-1 2s linear forwards 1.8s
+}
+
+.progress-value svg {
+    animation: rotation 4s infinite linear;
+    margin-left: -2px;
+    margin-top: -3px
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(359deg)
+    }
+}
+
+@keyframes loading {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+    }
+}
+
+@keyframes loading-1 {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+    }
+}
+
+.business_list ul li {
+    margin: 1rem 0
+}
+
+.business_list ul li i {
+    color: #ed2033;
+    margin-right: .5rem
+}
+
+.dateclass {
+    width: 100%;
+    font-size: .9rem;
+    color: #000;
+    padding: 12px 20px !important
+}
+
+.dateclass.placeholderclass::before {
+    width: 100%;
+    content: attr(placeholder);
+    font-size: .9rem;
+    color: #000
+}
+
+.dateclass.placeholderclass:hover::before {
+    width: 0%;
+    content: ""
+}
+
+.eye_view {
+    color: #000;
+    position: absolute;
+    right: 20%;
+    margin-top: 1.6rem;
+    cursor: pointer;
+    font-size: 1rem;
+    z-index: 99
+}
+
+.address_modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.address_modal i {
+    color: #df1839;
+    font-size: 3rem;
+    margin: 1.5rem 0
+}
+
+.eye_view i span {
+    margin: 0 10px
+}
+
+.ongoing_loan_resize {
+    width: 93%;
+    margin-left: 1rem
+}
+
+.extra_field_btn button {
+    background: green;
+    padding: 0 .6rem;
+    position: absolute;
+    margin: 4rem 0 0 -1.1rem
+}
+
+.Extra_remove_btn button {
+    background: #df1839;
+    position: absolute !important;
+    font-size: 1.2rem;
+    padding: 3px .7rem;
+    position: absolute;
+    margin: 4rem 0 0 -1.2rem
+}
+
+.input_extra input {
+    margin-left: 1.2rem;
+    width: 96%
+}
+
+.owl-nav {
+    position: absolute;
+    top: 14%;
+    width: 100%
+}
+
+.owl-prev {
+    position: absolute;
+    left: 0
+}
+
+.owl-next {
+    position: absolute;
+    right: 0
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #df1839 !important;
+    font-size: 3rem !important;
+    padding: 0 0;
+    background: #d6d6d6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: 0
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: 0 0 !important;
+    color: #3b37a9 !important;
+    text-decoration: none
+}
+
+.Sadguru_Arts {
+    background: url(../image/Sadguru_Arts.png);
+    width: 90%;
+    min-height: 264px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    transition: .5s
+}
+
+.Sadguru_Arts:hover, .gupta_kirana_stores:hover, .hari_om_garments:hover {
+    border-radius: 12px;
+    opacity: .5
+}
+
+.gupta_kirana_stores {
+    background: url(../image/Gupta_Kirana_Store.png);
+    width: 90%;
+    min-height: 264px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    transition: .5s
+}
+
+.hari_om_garments {
+    background: url(../image/Hari_Om_Garments.png);
+    width: 90%;
+    min-height: 264px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    transition: .5s
+}
+
+.about_team_image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+
+.form_bg_change {
+    background: #fbfbfb
+}
+
+.form_para {
+    color: #000 !important;
+    font-weight: 700 !important;
+    font-size: 1rem;
+    padding: 0;
+    text-align: left;
+    padding: 0 !important
+}
+
+#on_going_loan_input1, #on_going_loan_input2, #on_going_loan_input3 {
+    width: 81%;
+    margin-left: -31px
+}
+
+.next_dynamic_bg, .remove_dynamic_bg {
+    background: #fff;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #4e4E4E4F
+}
